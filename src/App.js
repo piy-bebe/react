@@ -9,10 +9,34 @@ const App = () => {
         />
       </header>
       <nav className="nav">
-        <div>Profile</div>
-        <div>Messages</div>
+        <div>
+          <a>Profile</a>
+        </div>
+        <div>
+          <a>Message</a>
+        </div>
+        <div>
+          <a>News</a>
+        </div>
+        <div>
+          <a>Music</a>
+        </div>
+        <div>
+          <a>Settings</a>
+        </div>
       </nav>
-      <div className="content">Main content</div>
+      <div className="content">
+        <div class="img"></div>
+        <div>ava + description</div>
+        <div>
+          My post
+          <div>New post</div>
+          <div>
+            <div>post 1</div>
+            <div>post 2</div>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }

@@ -9,16 +9,19 @@
 }
 .header {
   grid-area: h;
-  background-color: aquamarine;
+  background-color: #ccc;
 }
 .header img {
-  width: 20px;
+  width: 40px;
 }
 .nav {
   grid-area: n;
-  background-color: darkred;
+  background-color: #ccc;
 }
 .content {
   grid-area: c;
+}
+.content .img {
   background-color: lightskyblue;
+  height: 35px;
 }
