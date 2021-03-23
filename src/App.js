@@ -1,27 +1,13 @@
 import React from 'react'
 import './App.css'
 import Header from './components/Header'
+import Navbar from './components/Navbar'
 const App = () => {
   return (
     <div className="app-wrapper">
       <Header />
-      <nav className="nav">
-        <div>
-          <a>Profile</a>
-        </div>
-        <div>
-          <a>Message</a>
-        </div>
-        <div>
-          <a>News</a>
-        </div>
-        <div>
-          <a>Music</a>
-        </div>
-        <div>
-          <a>Settings</a>
-        </div>
-      </nav>
+      <Navbar />
+
       <div className="content">
         <div class="img"></div>
         <div>ava + description</div>
