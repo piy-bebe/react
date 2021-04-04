@@ -7,13 +7,6 @@
     'h h'
     'n c';
 }
-.header {
-  grid-area: h;
-  background-color: #ccc;
-}
-.header img {
-  width: 40px;
-}
 .nav {
   grid-area: n;
   background-color: #ccc;
