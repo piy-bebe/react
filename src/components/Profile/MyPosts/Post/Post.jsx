@@ -1,10 +1,13 @@
-import React from 'react'
-import c from './Post.module.css'
+import React from "react";
+import c from "./Post.module.css";
 
-const Post = () => {
+const Post = (props) => {
   return (
-    <div>Post 1</div>
-  )
-}
+    <div>
+      <h3>{props.title}</h3>
+      <p>{props.message}</p>
+    </div>
+  );
+};
 
-export default Post
+export default Post;
