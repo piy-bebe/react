@@ -7,14 +7,3 @@
     'h h'
     'n c';
 }
-.nav {
-  grid-area: n;
-  background-color: #ccc;
-}
-.content {
-  grid-area: c;
-}
-.content .img {
-  background-color: lightskyblue;
-  height: 35px;
-}
