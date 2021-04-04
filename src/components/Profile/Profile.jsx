@@ -1,9 +1,10 @@
 import React from 'react'
+import c from './Profile.module.css'
 
 const Profile = () => {
   return (
-    <div className="content">
-    <div class="img"></div>
+    <div className={c.content}>
+    <div class={c.img}></div>
     <div>ava + description</div>
     <div>
       My post
