@@ -1,6 +1,8 @@
 import React from 'react'
 import CSS from './Dialogs.module.css'
 
-const Dialogs = () => {}
+const Dialogs = (props) => {
+  return <div>Dialogs</div>
+}
 
 export default Dialogs
