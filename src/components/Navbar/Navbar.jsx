@@ -14,7 +14,7 @@ const Navbar = () => {
       <a className={CSS.link} href="/news">News</a>
     </div>
     <div className={CSS.item}>
-      <a className={CSS.link} href="/#">Music</a>
+      <a className={CSS.link} href="/music">Music</a>
     </div>
     <div className={CSS.item}>
       <a className={CSS.link} href="/#">Settings</a>
