@@ -1,3 +1,5 @@
+import { render } from './../render'
+
 let state = {
   messagesPage: {
     dialogs: [
@@ -16,17 +18,23 @@ let state = {
       { id: 1, title: "Me", message: "Hi Alex, how are you?" },
       { id: 2, title: "Me", message: "Yo, Guys!" },
     ],
+    newMessage: "Hello"
   },
 };
 
-export const addPost = (message) => {
+export const addPost = () => {
   const post = {
     id: 3,
-    message: message,
+    message: state.profilePage.newMessage,
     title: "Me",
   }
-
   state.profilePage.posts.push(post)
+  state.profilePage.newMessage = ''
+  render(state);
 }
 
+export const updateText = (newText) => {
+  state.profilePage.newMessage = newText
+  render(state)
+}
 export default state;
