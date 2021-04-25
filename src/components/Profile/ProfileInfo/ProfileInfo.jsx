@@ -5,7 +5,6 @@ const ProfileInfo = () => {
   return (
     <div>
       <div class={s.img}></div>
-      <div>ava + description</div>
     </div>
   )
 }
